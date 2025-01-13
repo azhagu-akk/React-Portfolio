@@ -1,5 +1,6 @@
 import image from "../assets/images/About-pic (2).jpg";
 import { FaFileDownload } from "react-icons/fa";
+import resume from "../assets/images/Azhagu Karthikeyan B_Resume.pdf";
 
 
 function Home() {
@@ -22,7 +23,7 @@ function Home() {
           <div className="lg:px-0 px-24 md:px-72 sm:px-36">
 
           <a
-            href=""
+            href={resume}
             download
             className="bg-white text-black p-2 lg:px-8 lg:py-2 rounded-full hover:scale-90 flex items-center justify-center gap-2 font-poppins text-base"
           >
