@@ -24,7 +24,7 @@ function Home() {
 
           <a
             href={resume}
-            download
+            target="_blank"
             className="bg-white text-black p-2 lg:px-8 lg:py-2 rounded-full hover:scale-90 flex items-center justify-center gap-2 font-poppins text-base"
           >
             Resume
