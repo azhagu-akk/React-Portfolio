@@ -1,7 +1,7 @@
-import image from "../assets/images/Online coaching.jpg";
-import image1 from "../assets/images/Movie.jpg"
+import image1 from "../assets/images/blogging.jpg"
 import image2 from "../assets/images/Library.jpg"
 import image3 from "../assets/images/electronics.png"
+import image4 from "../assets/images/Task.jpg"
 import { FaEye } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 
@@ -19,27 +19,27 @@ function Projects() {
 
       <div className="lg:px-32 px-12 sm:px-32 md:px-0 flex justify-around items-center font-poppins  flex-wrap gap-10 sm:space-y-2">
         <div className="border border-white text-white lg:w-1/3 md:w-2/4">
-          <img src={image} alt="" />
+          <img src={image4} alt="" />
           <div className="space-y-6 p-4">
-            <h1 className="font-semibold text-base">Landing Page</h1>
+            <h1 className="font-semibold text-base">Task Manager App</h1>
             <p className="text-xs font-extrathin text-justify">
-              A landing page for online coaching, built with Tailwind CSS,
-              provides a clean and responsive design that captures the attention
-              of potential clients.
+              The Task manager app is used to create new tasks, update, delete
+              and view all the tasks. It is a simple application that can be
+              used to manage tasks.
             </p>
             <p className="font-thin text-xs">
-              Techs : HTML5,CSS3 and Tailwind Css.
+              Techs : React,Express.js,Node.js,MongoDB.
             </p>
             <div className="flex justify-around items-center">
               <a
-                href="https://landingpagetailwindcsstask.netlify.app/"
+                href="https://taskmanagerapp3.netlify.app/"
                 target="_blank"
                 className="bg-white text-black rounded-lg p-2 hover:scale-90 flex justify-center items-center gap-2 text-sm font-semibold transition-all"
               >
                 Demo <FaEye />
               </a>
               <a
-                href="https://github.com/azhagu-akk/Landing-Page--Tailwind-css-"
+                href="https://github.com/azhagu-akk/Task-Manager-3"
                 target="_blank"
                 className="bg-white text-black rounded-lg p-2 hover:scale-90 flex justify-center items-center gap-2 text-sm font-semibold transition-all"
               >
@@ -51,25 +51,24 @@ function Projects() {
         <div className="border border-white text-white lg:w-1/3 md:w-2/4 ">
           <img src={image1} alt="" />
           <div className="space-y-6 p-4">
-            <h1 className="font-semibold text-base">Movie Search App</h1>
+            <h1 className="font-semibold text-base">Blogify</h1>
             <p className="text-xs font-extrathin text-justify">
-              This is a movie search web application that interacts with the
-              OMDB API to allow users to search for movies, TV series, and
-              episodes by title or keyword.
+              This is a blog website that interacts with the user to create a
+              blog, update, delete and view, comment the other`s blog
             </p>
             <p className="font-thin  text-xs">
-              Techs : HTML5,CSS3,Tailwind Css and React.
+              Techs : React,Express.js,Node.js,MongoDB.
             </p>
             <div className="flex justify-around items-center">
               <a
-                href="https://movies-searchappreact.netlify.app/"
+                href="https://blogify5.netlify.app/"
                 target="_blank"
                 className="bg-white text-black rounded-lg p-2 hover:scale-90 flex justify-center items-center gap-2 text-sm font-semibold transition-all"
               >
                 Demo <FaEye />
               </a>
               <a
-                href="https://github.com/azhagu-akk/Movie-Search-App"
+                href="https://github.com/azhagu-akk/Blogs"
                 target="_blank"
                 className="bg-white text-black rounded-lg p-2 hover:scale-90 flex justify-center items-center gap-2 text-sm font-semibold transition-all"
               >
